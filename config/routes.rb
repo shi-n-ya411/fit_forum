@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
 
+  get 'posts/new'
+  get 'posts/index'
+  get 'posts/show'
+  get 'posts/create'
+  get 'posts/edit'
+  get 'posts/update'
+  get 'posts/destroy'
   resources :users, only: [:show, :edit, :update, :destroy], path: 'mypage' do
     collection do
       get :index
