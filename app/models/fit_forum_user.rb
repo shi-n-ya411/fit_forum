@@ -1,0 +1,2 @@
+class FitForumUser < ApplicationRecord
+end
