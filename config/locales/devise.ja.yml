@@ -1,0 +1,55 @@
+ja:
+  devise:
+    confirmations:
+      confirmed: "アカウントが認証されました。"
+      send_instructions: "認証のためのメールを送信しました。メール内のリンクをクリックしてアカウントを認証してください。"
+      send_paranoid_instructions: "認証メールを再送しました。メール内のリンクをクリックしてアカウントを認証してください。"
+    failure:
+      already_authenticated: "すでにログインしています。"
+      inactive: "アカウントが有効化されていません。"
+      invalid: "メールアドレスまたはパスワードが正しくありません。"
+      locked: "アカウントがロックされています。"
+      last_attempt: "あと1回ログインに失敗するとアカウントがロックされます。"
+      not_found_in_database: "メールアドレスまたはパスワードが正しくありません。"
+      timeout: "セッションがタイムアウトしました。再度ログインしてください。"
+      unauthenticated: "ログインしてください。"
+      unconfirmed: "アカウントを認証してください。"
+    mailer:
+      confirmation_instructions:
+        subject: "アカウント認証"
+      reset_password_instructions:
+        subject: "パスワード再設定"
+      unlock_instructions:
+        subject: "アカウントロック解除"
+      email_changed:
+        subject: "メールアドレス変更"
+      password_change:
+        subject: "パスワード変更"
+    passwords:
+      no_token: "パスワード再設定用のトークンが無効です。パスワード再設定用のメールに記載されているリンクをクリックして、再度お試しください。"
+      send_instructions: "パスワード再設定用のメールを送信しました。メール内のリンクをクリックしてパスワードを再設定してください。"
+      send_paranoid_instructions: "パスワード再設定用のメールを再送しました。メール内のリンクをクリックしてパスワードを再設定してください。"
+      updated: "パスワードが変更されました。"
+      updated_not_active: "パスワードが変更されましたが、アカウントは有効化されていません。"
+    registrations:
+      destroyed: "アカウントが削除されました。"
+      signed_up: "アカウントが作成されました。"
+      signed_up_but_inactive: "アカウントが作成されましたが、有効化されていません。"
+      signed_up_but_locked: "アカウントが作成されましたが、ロックされています。"
+      signed_up_but_unconfirmed: "アカウントが作成されました。認証のためのメールを送信しました。メール内のリンクをクリックしてアカウントを認証してください。"
+      update_needs_confirmation: "アカウント情報を更新しました。認証のためのメールを送信しました。メール内のリンクをクリックしてアカウントを認証してください。"
+      updated: "アカウント情報が更新されました。"
+      updated_but_inactive: "アカウント情報が更新されましたが、アカウントは有効化されていません。"
+    sessions:
+      signed_in: "ログインしました。"
+      signed_out: "ログアウトしました。"
+      already_signed_out: "すでにログアウトしています。"
+    unlocks:
+      send_instructions: "アカウントロック解除用のメールを送信しました。メール内のリンクをクリックしてアカウントをロック解除してください。"
+      send_paranoid_instructions: "アカウントロック解除用のメールを再送しました。メール内のリンクをクリックしてアカウントをロック解除してください。"
+      unlocked: "アカウントがロック解除されました。"
+  errors:
+    messages:
+      not_saved:
+        one: "1件のエラーにより保存できませんでした:"
+        other: "%{count}件のエラーにより保存できませんでした:"
